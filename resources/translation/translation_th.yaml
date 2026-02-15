@@ -1,0 +1,18 @@
+login_page:
+  invalid_credential: ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง กรุณาตรวจสอบอีกครั้ง
+  missing_username: จำเป็นต้องกรอก Username
+  missing_password: จำเป็นต้องกรอก Password
+my_account_page:
+  lbl_my_account: บัญชีของฉัน
+  lbl_account_information: ข้อมูลเกี่ยวกับบัญชีของฉัน
+  lbl_promo_code: Promo Code
+  lbl_url_for_friends: URL for friends
+  menu:
+    my_account: บัญชีของฉัน
+    manage_device: จัดการอุปกรณ์
+    wireguard_beta: WireGuard (Beta)
+    change_password: เปลี่ยนรหัสผ่าน
+    login_on_the_tv: เข้าสู่ระบบในทีวี
+    invoice: ประวัติการชำระเงิน
+    affiliate_program: Affiliate Program
+    logout: ออกจากระบบ

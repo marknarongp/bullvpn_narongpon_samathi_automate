@@ -1,0 +1,18 @@
+login_page:
+  invalid_credential: Username or password is invalid
+  missing_username: Username is required
+  missing_password: Password is required
+my_account_page:
+  lbl_my_account: My Account
+  lbl_account_information: Account Information
+  lbl_promo_code: Promo Code
+  lbl_url_for_friends: URL for friends
+  menu:
+    my_account: My Account
+    manage_device: Manage device
+    wireguard_beta: WireGuard (Beta)
+    change_password: Change Password
+    login_on_the_tv: Login on the TV.
+    invoice: Invoice
+    affiliate_program: Affiliate Program
+    logout: Logout
