@@ -1,0 +1,8 @@
+timeout:
+  short_timeout: 3
+  medium_timeout: 5
+  long_timeout: 10
+bullvpn_baseURL: https://www.bullvpn.com
+endpoint:
+  login: login
+  accout: account
