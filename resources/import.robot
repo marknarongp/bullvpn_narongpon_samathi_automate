@@ -3,7 +3,6 @@ Library    SeleniumLibrary
 Library    Collections
 Library    String
 Library    yaml
-Library    pabot
 
 # Common
 Variables    ${CURDIR}/../resources/testdata/common/common_config.yaml
