@@ -120,6 +120,6 @@ robot -v lang:en -o ./results testcases/
 robot -v lang:th -o ./results testcases/
 ```
 
-## Author
+## Demo Video
 
-Narongpon Samathi
+[![Watch the demo](assets/demo/demo_thumb.png)](https://github.com/marknarongp/bullvpn_narongpon_samathi_automate/blob/main/assets/demo/demo.mov)
