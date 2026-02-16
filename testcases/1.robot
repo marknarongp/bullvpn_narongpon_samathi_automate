@@ -6,13 +6,13 @@ Test Teardown   SeleniumLibrary.Close all browsers
 *** Test Cases ***
 Case 1: Success login
     [Documentation]    สามารถเข้าสู่ระบบได้สำเร็จเมื่อใช้ Username และ Password ที่ถูกต้อง (และตรวจสอบว่าระบบพาไปหน้า Dashboard จริง)
-    [Tags]    regression
+    [Tags]    regression    mandatory_case
     login_feature.Login with username and password    ${username}    ${password}
     my_account_page.Verify page landing on my account page
 
 Case 2: Invalid credentials
     [Documentation]    ระบบต้องแสดง Error message ที่ถูกต้องเมื่อกรอกรหัสผ่านผิด
-    [Tags]    regression
+    [Tags]    regression    mandatory_case
     login_feature.Login with username and password    ${username_incorrect}    ${password_incorrect}
     login_page.Verify error message should be visible    ${login_page.invalid_credential}
 

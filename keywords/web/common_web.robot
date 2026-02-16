@@ -26,7 +26,7 @@ Click element when ready
 Click element when ready with replace string
     [Arguments]    ${locator}    ${expected_text}    ${timeout}=${timeout.medium_timeout}
     ${new_locator}    String.Replace string    ${locator}    @#string@#    ${expected_text}
-    Wait until element is ready    ${locator}    ${timeout}
+    Wait until element is ready    ${new_locator}    ${timeout}
     SeleniumLibrary.Click element    ${new_locator}
 
 Input text to textbox when ready
