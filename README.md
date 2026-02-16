@@ -103,7 +103,7 @@ brew install --cask google-chrome
 
 **Install ChromeDriver using Homebrew:**
 ```bash
-brew install chromedriver@stable
+brew install chromedriver
 ```
 
 ## Running Tests
